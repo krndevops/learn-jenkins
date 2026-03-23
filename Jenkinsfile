@@ -10,6 +10,7 @@ pipeline {
         stage('Stage 2') {
             steps {
                 echo 'Hello DevOps Engineer!'
+                sh 'echo Hey Karan!'
             }
         }
     }
